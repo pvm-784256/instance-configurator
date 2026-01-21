@@ -1,0 +1,18 @@
+{
+  "name": "servicenow-instance-config",
+  "version": "1.0.0",
+  "description": "ServiceNow Instance Configuration Script Includes",
+  "keywords": [
+    "servicenow"
+  ],
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "InstanceConfig.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@types/servicenow": "^10.0.4"
+  }
+}
