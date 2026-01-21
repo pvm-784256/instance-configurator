@@ -18,3 +18,17 @@ Thumbs.db
 
 # ServiceNow specific
 .servicenow/
+
+# ServiceNow credentials and instance data
+**/_settings.json
+**/settings.json
+**/_requests.log
+**/_last_error.json
+**/agent/
+
+# ServiceNow extension cache and local state
+**/scopes.json
+**/structure.json
+
+# Screenshots (temporary files)
+screenshots/
