@@ -33,14 +33,17 @@ This will install:
 
 ```
 ServiceNow-Instance-Config/
-├── InstanceConfig.js           # Main Script Include class
-├── InstanceConfig_Test.js     # Test cases for InstanceConfig
-├── mckMailHelper.js            # Mail helper utility
+├── docs/
+│   └── coding-standards.md    # Project coding standards
 ├── types/
 │   └── project.d.ts           # TypeScript definitions for custom classes
+├── dev355071/                 # ServiceNow instance folder
+│   └── x_448357_instanc_0/    # Scoped application
+│       └── sys_script_include/ # Script Includes
 ├── jsconfig.json              # JavaScript/TypeScript configuration
 ├── package.json               # npm dependencies
-└── CODING_STANDARDS.md        # Project coding standards
+├── claude.md                  # Claude AI assistant instructions
+└── README.md                  # This file
 ```
 
 ## Type Definitions
@@ -80,11 +83,11 @@ test.runAllTests();
 
 ### Code Standards
 
-Please refer to `CODING_STANDARDS.md` for coding standards and best practices for this project.
+Please refer to `docs/coding-standards.md` for coding standards and best practices for this project.
 
 ## Contributing
 
-1. Follow the coding standards outlined in `CODING_STANDARDS.md`
+1. Follow the coding standards outlined in `docs/coding-standards.md`
 2. Write tests for new functionality
 3. Update type definitions in `types/project.d.ts` when adding new classes
 4. Ensure all code is properly documented with JSDoc comments
